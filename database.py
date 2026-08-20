@@ -5,9 +5,9 @@ Maneja la conexión a la base de datos SQLite y la creación de tablas.
 import sqlite3
 import os
 
-NOMBRE_BD = "ventas.db"
-
-
+NOMBRE_BD = "ventas.db"bbfbfbfbffbffvfbffbfbfbfbfbfbfffbbvbbfbffbfbffbfbfbfbff
+bfbfbvf
+bfbfbfbfbfbfbf
 def obtener_ruta_bd():
     """Devuelve la ruta absoluta del archivo de base de datos. En desarrollo
     queda junto a los .py; empaquetado con PyInstaller queda junto al .exe,
