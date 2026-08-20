@@ -1,0 +1,15 @@
+# requirements.txt
+# Dependencias necesarias para ejecutar MAQUEDASYSTEMS y para compilarlo
+# con PyInstaller. Instalar con:  pip install -r requirements.txt
+
+Pillow>=10.0.0
+reportlab>=4.0.0
+openpyxl>=3.1.0
+python-docx>=1.1.0
+odfpy>=1.4.1
+pyinstaller>=6.0.0
+
+# Driver de impresoras (detectar impresoras instaladas, imprimir PDF en una
+# impresora específica, e imprimir texto crudo/ESC-POS directo en
+# impresoras ticketeras térmicas). Solo aplica en Windows.
+pywin32>=306; sys_platform == "win32"
