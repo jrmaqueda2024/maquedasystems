@@ -8,7 +8,7 @@ NUNCA se guardan en texto plano: se guardan con hash + sal usando hashlib
 import hashlib
 import os
 import binascii
-from database import conectar
+from database import conectar jfnkjaskdhf
 
 
 # Módulos del sistema que se pueden asignar a un usuario "vendedor".
